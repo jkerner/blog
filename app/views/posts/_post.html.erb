@@ -1,0 +1,11 @@
+<h2>
+  <%= link_to post.title, post_path(post) %>
+</h2>
+
+<p>
+  <%= simple_format(post.body) %>
+</p>
+
+<p class="text-muted">
+  <%= post.created_at.to_date.to_formatted_s(:long_ordinal) %>
+</p>

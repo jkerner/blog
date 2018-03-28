@@ -3,7 +3,11 @@
 </h2>
 
 <p>
+  <% if post.kind == 'image'%>
+    Show the image...
+    <% else %>
   <%= simple_format(post.body) %>
+  <% end %>
 </p>
 
 <p class="text-muted">

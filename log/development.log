@@ -3167,3 +3167,284 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:33:47 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (0.9ms)
+  Rendered pages/welcome.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 1.6ms)
+
+
+
+SyntaxError (/Users/juliek/Development/blog/app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^
+/Users/juliek/Development/blog/app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+
+app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163118773280'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163118773280'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:33:51 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (1.8ms)
+  Rendered pages/welcome.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.5ms)
+
+
+
+SyntaxError (/Users/juliek/Development/blog/app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^
+/Users/juliek/Development/blog/app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+
+app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163108578580'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163108578580'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:38:39 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (1.4ms)
+  Rendered pages/welcome.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+
+SyntaxError (/Users/juliek/Development/blog/app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^
+/Users/juliek/Development/blog/app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+
+app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163110249380'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163110249380'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:38:45 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (1.2ms)
+  Rendered pages/welcome.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.4ms)
+
+
+
+SyntaxError (/Users/juliek/Development/blog/app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^
+/Users/juliek/Development/blog/app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+
+app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163119282460'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163119282460'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:39:44 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (1.6ms)
+  Rendered pages/welcome.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.3ms)
+
+
+
+SyntaxError (/Users/juliek/Development/blog/app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^
+/Users/juliek/Development/blog/app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+
+app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163099312360'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163099312360'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:39:47 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (1.1ms)
+  Rendered pages/welcome.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.4ms)
+
+
+
+SyntaxError (/Users/juliek/Development/blog/app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^
+/Users/juliek/Development/blog/app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+
+app/views/posts/_post.html.erb:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/posts/_post.html.erb:19: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163102656880'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163102656880'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:43:06 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (12.2ms)
+  Rendered pages/welcome.html.erb within layouts/application (17.8ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.2ms)
+
+
+
+ActionView::Template::Error (undefined method `kind' for #<Post:0x00007fa03d8b52d8>):
+    3: </h2>
+    4:
+    5: <p>
+    6:   <% if post.kind == 'image'%>
+    7:     Show the image...
+    8:     <% else %>
+    9:   <%= simple_format(post.body) %>
+
+app/views/posts/_post.html.erb:6:in `_app_views_posts__post_html_erb__2912842866298802585_70163102005520'
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163102069840'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163102069840'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Addkindtopost (20180328194453)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180328194453"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:45:06 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (8.4ms)
+  Rendered pages/welcome.html.erb within layouts/application (34.0ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 1.1ms)
+
+
+
+ActionView::Template::Error (undefined method `kind' for #<Post:0x00007fa03d6b7940>):
+    3: </h2>
+    4:
+    5: <p>
+    6:   <% if post.kind == 'image'%>
+    7:     Show the image...
+    8:     <% else %>
+    9:   <%= simple_format(post.body) %>
+
+app/views/posts/_post.html.erb:6:in `_app_views_posts__post_html_erb__2912842866298802585_70163100968920'
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163102376280'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163102376280'
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:45:20 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (10.6ms)
+  Rendered pages/welcome.html.erb within layouts/application (15.8ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.3ms)
+
+
+
+ActionView::Template::Error (undefined method `kind' for #<Post:0x00007fa03e029820>):
+    3: </h2>
+    4:
+    5: <p>
+    6:   <% if post.kind == 'image'%>
+    7:     Show the image...
+    8:     <% else %>
+    9:   <%= simple_format(post.body) %>
+
+app/views/posts/_post.html.erb:6:in `_app_views_posts__post_html_erb__2912842866298802585_70163105910180'
+app/views/pages/welcome.html.erb:3:in `block in _app_views_pages_welcome_html_erb__2457546793741547767_70163105992560'
+app/views/pages/welcome.html.erb:1:in `_app_views_pages_welcome_html_erb__2457546793741547767_70163105992560'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:47:11 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddKindToPosts (20180328194659)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.5ms)[0m  [1m[35mALTER TABLE "posts" ADD "kind" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180328194659"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:47:24 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (10.1ms)
+  Rendered posts/_post.html.erb (2.1ms)
+  Rendered posts/_post.html.erb (12.8ms)
+  Rendered posts/_post.html.erb (1.2ms)
+  Rendered posts/_post.html.erb (1.0ms)
+  Rendered pages/welcome.html.erb within layouts/application (58.9ms)
+Completed 200 OK in 342ms (Views: 333.6ms | ActiveRecord: 1.3ms)
+
+
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = ?, "kind" = ? WHERE "posts"."id" = ?[0m  [["updated_at", "2018-03-28 19:51:41.632524"], ["kind", "image"], ["id", 10]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2018-03-28 15:55:49 -0400
+Processing by PagesController#welcome as HTML
+  Rendering pages/welcome.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/_post.html.erb (4.3ms)
+  Rendered posts/_post.html.erb (0.8ms)
+  Rendered posts/_post.html.erb (1.8ms)
+  Rendered posts/_post.html.erb (1.3ms)
+  Rendered posts/_post.html.erb (0.4ms)
+  Rendered pages/welcome.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 103ms (Views: 93.4ms | ActiveRecord: 0.3ms)
+
+
